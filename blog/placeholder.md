@@ -1,0 +1,6 @@
+# Something is cooking in the lab...
+
+```shell
+$ bunx vitepress build blog
+$ Cloudflare Pages status: deploying...
+```

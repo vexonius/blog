@@ -4,26 +4,21 @@ layout: home
 
 hero:
   name: "Tino Emer"
-  text: "A poor dev thoughts"
-  tagline: "Pouring my views and hopes of current tech landspace"
+  text: "A poor dev tips"
+  tagline: "Learning by making mistakes"
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
-    - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: Latest articles
+      link: /placeholder
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: Projects
+    details: Explore my past projects
+  - title: Things of interest
+    details: Code tinkering in my spare time
+  - title: Blog
+    details: Documenting development process
+  - title: Random bytes
+    details: Other not so interesting stuff
 ---
 

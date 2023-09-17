@@ -2,27 +2,30 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "Error Driven Development",
-  description: "A poor dev thoughts",
+  title: "Tino Emer",
+  description: "A poor dev observations",
   themeConfig: {
+    search: {
+      provider: "local"
+    },
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: 'Coming soon', link: '/placeholder' }
     ],
 
     sidebar: [
       {
-        text: 'Examples',
+        text: 'Pages',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: 'Home', link: '/index' }
         ]
       }
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
-    ]
+      { icon: 'github', link: 'https://github.com/vexonius/blog' },
+      { icon: 'linkedin', link: 'https://www.linkedin.com/in/etino/' }
+    ],
   }
 })

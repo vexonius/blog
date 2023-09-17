@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Freight Text Pro';
+    font-weight: 400;
+    font-display: swap;
+    font-style: normal;
+    font-named-instance: 'Regular';
+    -moz-font-feature-settings: "liga", "onum", "salt";
+    -webkit-font-feature-settings: "liga", "onum", "salt";
+    font-feature-settings: "liga", "onum", "salt";
+    font-variant-ligatures: common-ligatures;
+    src: url('../../assets/FreightTextPro.woff') format('woff');
+  }
