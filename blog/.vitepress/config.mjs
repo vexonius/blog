@@ -27,5 +27,12 @@ export default defineConfig({
       { icon: 'github', link: 'https://github.com/vexonius/blog' },
       { icon: 'linkedin', link: 'https://www.linkedin.com/in/etino/' }
     ],
+
+    markdown: {
+      theme: {
+        dark: 'github-dark',
+        light: 'github-light',
+      }
+    },
   }
 })
